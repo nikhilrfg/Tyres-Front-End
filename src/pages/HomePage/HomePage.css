@@ -1,0 +1,134 @@
+/* HomePage.css */
+.content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.tyre-form-container {
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.tyre-form-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.tyre-form-container input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.tyre-form-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.tyre-form-container button:hover {
+    background-color: #218838;
+}
+
+.tyre-list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+.tyre-list-item-labels {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.tyre-list-item-field {
+    width: 150px;
+    text-align: left;
+}
+
+.tyre-list-item-inner-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.tyre-list-item-edit {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.tyre-list-item button {
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 5px;
+}
+
+.tyre-list-item button:hover {
+    background-color: #0056b3;
+}
+
+.tyre-list-item .delete-button {
+    background-color: #dc3545;
+}
+
+.tyre-list-item .delete-button:hover {
+    background-color: #c82333;
+}
+
+
+/* HomePage.css */
+/* .content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tyre-list-item {
+    display: flex;
+    justify-content: center;
+}
+
+.tyre-list-item-labels {
+    margin-right: 10px;
+}
+
+.tyre-list-item-field {
+    width: 50%;
+}
+
+.tyre-list-item-inner-container {
+    width: 200px;
+}
+
+.tyre-list-item-edit {
+    width: 50%;
+    margin: top 8px;
+    margin-bottom: 8px;
+} */
